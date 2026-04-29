@@ -1,76 +1,113 @@
-## 💡Contexto del proyecto
+# 🏥 Análisis de Egresos Hospitalarios — Chile 2024
 
-<aside>
+Proyecto de análisis de datos hospitalarios orientado a comprender el comportamiento de los egresos, la duración de las estancias y su impacto en la gestión clínica y operativa.
 
-<aside>
+---
 
-Proyecto de análisis de datos hospitalarios orientado a comprender el comportamiento de los egresos, la duración de las estancias y su impacto en la gestión clínica.
+# 📌 Objetivo General
 
-</aside>
+Analizar los egresos hospitalarios del año 2024 con el fin de generar indicadores que apoyen la toma de decisiones en contextos clínicos y de gestión sanitaria.
 
-</aside>
+---
 
-## 📌 Objetivo general del proyecto
+# 📊 Objetivos Específicos
 
-<aside>
+* Cuantificar el volumen total de egresos hospitalarios durante el año 2024.
+* Calcular la duración promedio de hospitalización.
+* Identificar los establecimientos de salud con mayor volumen de egresos.
+* Analizar la distribución de egresos según tipo de previsión (FONASA, ISAPRE y Particular).
+* Evaluar la variación de los días de estadía según variables demográficas.
+* Determinar la estancia promedio por diagnóstico.
+* Estimar la proporción de hospitalizaciones con estancias prolongadas (>7 días).
 
-Analizar los egresos hospitalarios del año 2024 con el fin de generar indicadores que apoyen la toma de decisiones en contextos clínicos y de gestión.
+---
 
-</aside>
+# ❓ Preguntas de Negocio
 
-## Objetivos específicos del proyecto
+1. ¿Cuál fue el volumen total de egresos hospitalarios durante 2024?
+2. ¿Cuál es la duración promedio de hospitalización?
+3. ¿Qué establecimientos concentran el mayor volumen de egresos?
+4. ¿Qué tipo de previsión predomina en los egresos hospitalarios?
+5. ¿Cómo varían los días de estadía según edad y sexo?
+6. ¿Cuál es la estancia promedio por diagnóstico?
+7. ¿Qué proporción de hospitalizaciones presenta estancias prolongadas?
 
-<aside>
+---
 
-- Cuantificar el volumen total de egresos hospitalarios durante el año 2024.
-- Calcular la duración promedio de la hospitalización.
-- Identificar los establecimientos de salud que concentran el mayor volumen de egresos hospitalarios.
-- Analizar la distribución de los egresos hospitalarios según tipo de previsión (FONASA, ISAPRE y particular).
-- Evaluar la variación de los días de estadía hospitalaria según variables demográficas.
-- Determinar la estancia promedio por diagnóstico.
-- Estimar la proporción de egresos hospitalarios con estancias prolongadas (mayores a 7 días).
-</aside>
+# ⚙️ Alcance del Proyecto
 
-## Pregunta orientativa (Pregunta de negocio)
+Durante el desarrollo de este proyecto se realizaron las siguientes actividades:
 
-<aside>
+* Comprensión del problema y definición de preguntas de negocio.
+* Preparación, validación y limpieza de datos.
+* Transformación y estandarización utilizando Power Query.
+* Modelado de datos y creación de indicadores con DAX.
+* Desarrollo de dashboard interactivo en Power BI.
+* Análisis exploratorio de datos hospitalarios.
+* Construcción de KPIs orientados a gestión clínica y eficiencia hospitalaria.
 
-1. ¿Cuál fue el volumen total de egresos hospitalarios en 2024 y cómo se distribuyen según tipo de establecimiento y previsión?
-2. ¿ Cuál es la duración promedio de hospitalización? 
-3.  ****¿Qué establecimientos concentran mayor volumen de egresos?
-4.  ****¿Qué previsión (FONASA / ISAPRE / particular) predomina?
-5.  ¿Cómo varían los días de estadía según edad o sexo ? 
-6. ¿Cuál es la estancia promedio por diagnóstico ? 
-7. ¿Qué proporción de los egresos presenta estancias prolongadas (>7 días) y cómo se relaciona con el promedio de días de estadía?
-</aside>
+---
 
-## 📌 Alcance y responsabilidades
+# 🛠️ Herramientas Utilizadas
 
-<aside>
+| Herramienta     | Uso                              |
+| --------------- | -------------------------------- |
+| SQL             | Limpieza y consultas de datos    |
+| Power BI        | Visualización y dashboards       |
+| DAX             | Construcción de indicadores      |
+| Power Query     | Transformación y modelado        |
+| Python (Pandas) | Limpieza y análisis exploratorio |
+| Excel           | Validación y revisión de datos   |
 
-En este proyecto realicé las siguientes actividades:
+---
 
-1. Comprensión del problema y definición de preguntas de negocio
-2. Preparación y validación de datos
-3. Limpieza y transformación de datos
-4. Usó de Power Query  para  procesos de estandarización , transformación, normalización, conversión y revisión de datos. 
-5. Modelación de datos y Cálculo de indicadores con DAX.
-6. Desarrollo de dashboard interactivo con Power BI.
-</aside>
+# 📈 Principales Resultados
 
-## **📌 Principales resultados**
+* Identificación de diagnósticos con alto volumen de egresos.
+* Detección de hospitalizaciones con estancias prolongadas.
+* Evaluación de variabilidad en días de hospitalización.
+* Generación de indicadores para apoyo a gestión clínica.
+* Visualización de patrones de utilización hospitalaria.
 
-<aside>
+---
 
-- Diagnósticos con alto volumen de egresos
-- Hospitalizaciones con estancias prolongadas
-- Impacto la disponibilidad de camas y la planificación de recursos clínicos.
-</aside>
+# 🏥 Aplicación Práctica
 
-## **🏥 Aplicación práctica**
+La información generada puede apoyar a equipos de gestión clínica y administrativa en:
 
-<aside>
+* Evaluación de procesos asistenciales.
+* Priorización de diagnósticos y recursos.
+* Monitoreo de indicadores hospitalarios.
+* Optimización de tiempos de estadía.
+* Apoyo a la toma de decisiones basada en datos.
 
-La información generada puede apoyar a equipos de gestión clínica en la evaluación de procesos asistenciales, priorización de diagnósticos y toma de decisiones orientadas a una atención más eficiente.
+---
 
-</aside>
+# 📂 Archivos del Proyecto
+
+* `dashboard.pbix` → Dashboard interactivo en Power BI.
+* `queries.sql` → Consultas SQL utilizadas en el análisis.
+* `analisis_python.ipynb` → Limpieza y análisis exploratorio en Python.
+* `medidas_dax.txt` → KPIs y medidas DAX desarrolladas.
+
+---
+
+# 📌 Dashboard Preview
+
+*Aquí puedes agregar capturas del dashboard.*
+
+```markdown
+![Dashboard](dashboard-preview.png)
+```
+
+---
+
+# 👩‍💻 Autor
+
+**Hillary Sánchez Orellana**
+Analista de Datos en Salud
+
+** Enero 2026 ** 
+
+* LinkedIn: https://www.linkedin.com/in/hillary-sanchez-2118211ba/
+* Email: [hillary.sanchez@gmail.com](mailto:hillary.sanchez@gmail.com)
